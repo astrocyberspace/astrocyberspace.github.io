@@ -1,8 +1,34 @@
-<HTML>
-  <HEAD>
-    <title>Default Page</title>
-  </HEAD>
-  <BODY>
-    ASDF
-  </BODY>
-</HTML>
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Cyberspace</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="cube.css">
+		<script type="text/javascript" src="js/cube.js"></script>
+	</head>
+
+	<body>
+		
+		<div id="container">
+			<h1 class="glowing" align="center">CYBERSPACE</h1>
+			<div class="scene" id = "box-scene">
+			  <div class="cube" id = "cube1">
+				<div class="cube__face cube__face--front"><img src = "images/logo.jpg" class="cubeImg" /></div>
+				<div class="cube__face cube__face--back"><img src = "images/logo.jpg" class="cubeImg" /></div>
+				<div class="cube__face cube__face--right"><img src = "images/logo.jpg" class="cubeImg" /></div>
+				<div class="cube__face cube__face--left"><img src = "images/logo.jpg" class="cubeImg" /></div>
+				<div class="cube__face cube__face--top"><img src = "images/logo.jpg" class="cubeImg" /></div>
+				<div class="cube__face cube__face--bottom"><img src = "images/logo.jpg" class="cubeImg" /></div>
+			  </div>
+			</div>
+		</div>
+			 
+		
+		<script>
+			var i;
+			for (i = 0; i < 100; i++)
+				document.write("<p>issa line</p>");
+		</script>
+	</body>
+</html>

@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	background: url("images/back.jpg") repeat fixed;
+	background-size: 15vw 15vw;
+	animation: backAnim 6s linear infinite 0s;
+}
+
+@keyframes backAnim
+{
+	0% {background-position: 0px 0px}
+	100% {background-position: 22.5vw -7.5vw}
+}
+
+#container
+{
+	width: 75%;
+	margin: auto;
+	border: 5px magenta solid;
+	border-radius: 10px;
+	background: rgba(0, 255, 255, 0.3);
+}
+
+
+.glowing
+{
+	font-size: 75px;
+	font-family: Consolas, "Lucida Console";
+	color: magenta;
+	text-shadow: 0 0 10px rgba(255, 0, 255, 0.6);
+}
